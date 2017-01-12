@@ -8,9 +8,9 @@ This tool depends on the following software
 * Webpack
 * Sublime Editor or notepad 
 
-Download Nodejs: https://nodejs.org/en/download/
-Donwload Webpack: https://www.npmjs.com/package/webpack
-Donwload Sublime: https://www.sublimetext.com/download
+* Download Nodejs: https://nodejs.org/en/download/
+* Donwload Webpack: https://www.npmjs.com/package/webpack
+* Donwload Sublime: https://www.sublimetext.com/download
 
 ## Install and build from the source code  
 To obtain the latest version of the project please clone the github repository
