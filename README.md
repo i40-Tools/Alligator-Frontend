@@ -7,6 +7,7 @@ This tool depends on the following software
 * Node JS
 * Webpack
 * Sublime Editor or notepad 
+* React D3
 
 * Download Nodejs: https://nodejs.org/en/download/
 * Donwload Webpack: https://www.npmjs.com/package/webpack
@@ -20,6 +21,7 @@ To obtain the latest version of the project please clone the github repository
 Navigate to the Alligator-frontend Folder using terminal or command propmt e.c cd Alligator-Frontend/
 Run the following command on terminal :
 * sudo npm install  
+* npm install react-d3
 * sudo webpack
 * sudo npm run dev
 
