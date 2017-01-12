@@ -28,6 +28,9 @@ Once this is done the server would start up and you can access the index page by
 ## Running without compiling
 Just run index.html make sure your client.min.js is in the folder.
 
+Some useful ReactJS tutorials:
+https://www.youtube.com/watch?v=MhkGQAoc7bc&t=39s
+
 ## License
 
 * Copyright (C) 2017 EIS Uni-Bonn
