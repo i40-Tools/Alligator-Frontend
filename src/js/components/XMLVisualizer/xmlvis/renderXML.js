@@ -2,6 +2,7 @@
 
 import {drawTree} from './treeDrawer';
 
+
 function xmlToArray(text) {
   let head = '';
   let currentString = '';

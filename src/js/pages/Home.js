@@ -88,11 +88,17 @@ export default class Home extends React.Component {
       <div>
       <h3> <b>Please Select your Heterogeneity Files</b> </h3>
       <FileUploader showDataFileA={this.showDataFileA.bind(this)} showDataFileB={this.showDataFileB.bind(this)}/> 
+      <div class="row">
+      <div class="col-sm-5 ">
       <textarea  style={containerStyle} rows="15" cols="50" id="aboutDescription"
       data-role="none" value={vkbeautify.xml(xmlA)}></textarea>
+      </div>
+      <div class="col-sm-5 ">
+      
       <textarea rows="15" style={containerStyle} cols="50" id="aboutDescription"
       data-role="none" value={vkbeautify.xml(xmlB)}></textarea>
-
+       </div>
+       </div>
       <XMLVisualizer showDataFileA={this.showDataFileA.bind(this)} xml={xmlA} xmlB={xmlB} showDataFileB={this.showDataFileB.bind(this)}/>
 
       <button class="btn btn-primary">Integrate</button>

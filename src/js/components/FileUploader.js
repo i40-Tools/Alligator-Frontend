@@ -54,13 +54,14 @@ render() {
 
   return (
 
-    <div class="row row-eq-height">
 
-    <div class="col-xs-14 col-sm-6">
+    <div class="row ">
+
+    <div class="col-sm-5">
     <input type="file" name="Select AML file -1"  onChange={::this.fileUploadA}  id="file" accept=".xsd,.xml,.aml" className="btn btn-primary"/>
     </div>
 
-    <div class="col-xs-14 col-sm-6 ">
+    <div class="col-sm-5 ">
     <input type="file" name="Select AML file -2" onChange={::this.fileUploadB}  id="file2" accept=".xsd,.xml,.aml" className="btn btn-primary"/>
     </div>
     </div>

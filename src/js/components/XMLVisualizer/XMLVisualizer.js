@@ -57,8 +57,8 @@
 
 // handles file A content for visualization upon button click
   handleFileB() {
-    XMLVisualizer.FileNameB="Displaying File B";  // File b is activated for visualization
-    XMLVisualizer.FileNameA="";   // hides File A name 
+    XMLVisualizer.FILENAMEB="Displaying File B";  // File b is activated for visualization
+    XMLVisualizer.FILENAMEA="";   // hides File A name 
     if (this.props.showDataFileB) 
       this.props.showDataFileB(this.props.xmlB);
 
@@ -84,13 +84,13 @@
     return (
 
 
-      <div class="row row-eq-height">
+      <div class="row ">
 
-      <div class="col-xs-14 col-sm-6 " id="abc">
+      <div class="col-sm-5 " id="abc">
       <button class="btn btn-success" id="fileA" onClick={this.handleFileA.bind(this)}>Visualize FileA</button>
       </div>
 
-      <div class="col-xs-14 col-sm-6">
+      <div class="col-sm-5">
       <button class="btn btn-success" id="fileA" onClick={this.handleFileB.bind(this) }>Visualize FileB</button>
       <br></br>
       <br></br>
@@ -99,10 +99,10 @@
       <br></br>
       <br></br>
 
-
       <div class="container" >
-      <h3> {XMLVisualizer.FileNameA}</h3>
-      <h3>{XMLVisualizer.FileNameB}</h3>
+      <h3>{XMLVisualizer.FILENAMEA}</h3>
+      <h3>{XMLVisualizer.FILENAMEB}</h3>
+
 
       <div class="row row-eq-height  panel">
 
