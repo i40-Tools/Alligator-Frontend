@@ -4,6 +4,7 @@ import React, { Component, PropTypes } from 'react'
 import FileUploader from "../components/FileUploader";
 import XMLVisualizer from "../components/XMLVisualizer/XMLVisualizer";
 import vkbeautify from 'vkbeautify'
+import Integrate from "../components/Integrate";
 
 
 /**
@@ -100,8 +101,8 @@ export default class Home extends React.Component {
        </div>
        </div>
       <XMLVisualizer showDataFileA={this.showDataFileA.bind(this)} xml={xmlA} xmlB={xmlB} showDataFileB={this.showDataFileB.bind(this)}/>
+      <Integrate/>
 
-      <button class="btn btn-primary">Integrate</button>
 
       </div>
       );

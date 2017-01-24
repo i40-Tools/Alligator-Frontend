@@ -13,6 +13,7 @@ class AmlStore extends EventEmitter {
     super()
     this.xmlA="";
     this.xmlB="";
+    this.xmlI=[];
     this.fileNameA="";
     this.fileNameB="";
 
@@ -28,6 +29,12 @@ class AmlStore extends EventEmitter {
     return this.xmlB;
   }
 
+  getXmlI() {
+    return this.xmlI;
+  }
+
+
+
   // handles actions 
   handleActions(action) {
     switch(action.type) {
@@ -42,6 +49,15 @@ class AmlStore extends EventEmitter {
         this.emit("change");
         break;
       }
+
+      case "GET_DATA_FULFILLED": {
+        this.xmlI = action.payload;
+        this.emit("update");
+        break;
+      }
+
+
+
     }
   }
 
