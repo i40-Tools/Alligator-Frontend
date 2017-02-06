@@ -19,11 +19,12 @@ To obtain the latest version of the project please clone the github repository
     $ git clone https://github.com/i40-Tools/Alligator-Frontend.git
 
 Navigate to the Alligator-frontend Folder using terminal or command propmt e.c cd Alligator-Frontend/
+For both windows and Linux
 Run the following command on terminal :
-* sudo npm install  
+* npm install  
 * npm install react-d3
-* sudo webpack
-* sudo npm run dev
+* webpack
+* npm run dev
 
 Once this is done the server would start up and you can access the index page by going to localhost:8080
 
